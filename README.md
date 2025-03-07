@@ -2,7 +2,6 @@
 
 <!-- PROBLEM_COUNTS -->Total LeetCode problems solved: 0 - Easy: 0 - Medium: 0 - Hard: 0
 
-
 This repository contains my solutions to various LeetCode problems, organized by programming language, topic, and difficulty level. It also includes a script to automate the process of adding new solutions, updating a CSV log, and keeping the README up-to-date with problem counts.
 
 ### Table of Contents
