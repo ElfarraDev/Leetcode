@@ -13,7 +13,7 @@ This repository contains my solutions to various LeetCode problems, organized by
 
 ---
 
-### Repository Structure
+# Repository Structure
 
 ```text
 leetcode-solutions/
@@ -49,7 +49,7 @@ leetcode-solutions/
 └── leetcode-push.sh
 ```
 
-### Usage
+# Usage
 
 - Language Folders: Solutions are first grouped by programming language (e.g., `python/`, `java/`, `cpp/`).  
 - Topic Folders: Within each language, solutions are categorized by topic (e.g., `arrays/`, `linked-lists/`, `trees/`, `graphs/`, etc.).  
@@ -58,7 +58,7 @@ leetcode-solutions/
 
 To add a new solution or update an existing one, use the `leetcode-push.sh` script. The script supports solutions in Python (`.py`), Java (`.java`), and C++ (`.cpp`).
 
-### Adding a New Solution
+# Adding a New Solution
 
 Save your solution in the repository root with the naming format: `XXXX-problem-name.ext`, where `XXXX` is the problem number, and `ext` is the file extension (e.g., `0001-two-sum.py`).
 
@@ -109,10 +109,10 @@ This will:
 - Note: The script handles Git operations, including merging if there are differences between your local and remote branches. 
 - Ensure you have write access to the repository and that your local Git is properly configured.
 
-### Supported Languages and Topics
+# Supported Languages and Topics
 - Languages: Python (.py), Java (.java), C++ (.cpp)
 - Topics: Arrays, Linked Lists, Trees, Graphs, Dynamic Programming, and more.
 
-### Contributing
+# Contributing
 This repository is primarily for my personal LeetCode solutions. However, if you spot any errors or have suggestions for improvements, feel free to open an issue.
 
