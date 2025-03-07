@@ -1,2 +1,3 @@
 Problem Number,Problem Name,Language,Topic,Difficulty,Link,Needs Review,Date Completed,Reflection
 0217,"contains-duplicate",python,hash,easy,https://leetcode.com/problems/contains-duplicate/,no,2025-03-07,"I made a hashset and iterated over the array and checked if any element appeared in that hashset again"
+0344,"reverse-string",python,two-pointers,easy,https://leetcode.com/problems/reverse-string/,no,2025-03-07,"Use two pointers, a left pointer pointing at index and a right pointer point at the last index then swamped the two each time and then incremented the left pointer then decremented the right one until they reached an equal point"
