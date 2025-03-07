@@ -2,6 +2,7 @@
 
 <!-- PROBLEM_COUNTS -->Total LeetCode problems solved: 0 - Easy: 0 - Medium: 0 - Hard: 0
 
+
 This repository contains my solutions to various LeetCode problems, organized by programming language, topic, and difficulty level. It also includes a script to automate the process of adding new solutions, updating a CSV log, and keeping the README up-to-date with problem counts.
 
 ### Table of Contents
@@ -50,10 +51,10 @@ leetcode-solutions/
 
 ### Usage
 
-Language Folders: Solutions are first grouped by programming language (e.g., `python/`, `java/`, `cpp/`).  
-Topic Folders: Within each language, solutions are categorized by topic (e.g., `arrays/`, `linked-lists/`, `trees/`, `graphs/`, etc.).  
-Difficulty Folders: Each topic contains subfolders for difficulty levels: `easy/`, `medium/`, and `hard/`.  
-Contests: The `contests/` folder contains solutions to LeetCode contest problems, if applicable.
+- Language Folders: Solutions are first grouped by programming language (e.g., `python/`, `java/`, `cpp/`).  
+- Topic Folders: Within each language, solutions are categorized by topic (e.g., `arrays/`, `linked-lists/`, `trees/`, `graphs/`, etc.).  
+- Difficulty Folders: Each topic contains subfolders for difficulty levels: `easy/`, `medium/`, and `hard/`.  
+- Contests: The `contests/` folder contains solutions to LeetCode contest problems, if applicable.
 
 To add a new solution or update an existing one, use the `leetcode-push.sh` script. The script supports solutions in Python (`.py`), Java (`.java`), and C++ (`.cpp`).
 
@@ -65,14 +66,14 @@ Run the script with the following arguments:
 
 ```bash
 ./leetcode-push.sh <filename> <topic> <difficulty> [needs_review] ["reflection"]
-```
+
 
 <filename>: The name of your solution file (e.g., 0001-two-sum.py).
 <topic>: The topic of the problem (e.g., arrays, linked-lists, trees, graphs, etc.).
 <difficulty>: The difficulty level (easy, medium, hard).
 [needs_review]: Optional. Set to yes if the solution needs further review, otherwise no (default).
 ["reflection"]: Optional. A brief reflection or note about the solution (e.g., "Used two-pointer technique").
-
+```
 
 ### Example
 
@@ -86,25 +87,21 @@ This will:
 - Update the README with the latest problem counts.
 - Commit and push the changes to GitHub.
 
-### Updating an Existing Solution
+# Updating an Existing Solution
 
 ### Update 'Needs Review' Status:
 
 ```bash
 ./leetcode-push.sh <filename> -unr yes|no
-```
-#### Example:
-```bash
+
 ./leetcode-push.sh 0001-two-sum.py -unr yes
 ```
 
 ### Update Reflection:
+
 ```bash
 ./leetcode-push.sh <filename> -ur "new reflection"
-```
 
-#### Example:
-```bash
 ./leetcode-push.sh 0001-two-sum.py -ur "Optimized with two-pointer technique"
 ```
 
