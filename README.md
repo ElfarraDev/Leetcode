@@ -1,6 +1,6 @@
 # LeetCode Solutions Repository
 
-<!-- PROBLEM_COUNTS -->Total LeetCode problems solved: 10 - Easy: 8 - Medium: 2 - Hard: 0
+<!-- PROBLEM_COUNTS -->Total LeetCode problems solved: 11 - Easy: 9 - Medium: 2 - Hard: 0
 
 This repository contains my solutions to various LeetCode problems, organized by programming language, topic, and difficulty level. It also includes a script to automate the process of adding new solutions, updating a CSV log, and keeping the README up-to-date with problem counts.
 
