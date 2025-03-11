@@ -12,3 +12,4 @@ Problem Number,Problem Name,Language,Topic,Difficulty,Link,Needs Review,Date Com
 0141,"linked-list-cycle",python,linked-list,easy,https://leetcode.com/problems/linked-list-cycle/,no,2025-03-09,"Intialize two pointers slow and fast and then checked if they were both equal and if there were theres a cycle if not theres no cycle"
 0206,"reverse-linked-list",python,linked-list,easy,https://leetcode.com/problems/reverse-linked-list/,yes,2025-03-09,"Used three pointers, prev to track the old node, a temp to store the next node and then curr to iterate through the list"
 0035,"search-insert-position",python,binary-search,easy,https://leetcode.com/problems/search-insert-position/,no,2025-03-10,"used binary search algo"
+0347,"top-k-frequent-elements",python,heaps,medium,https://leetcode.com/problems/top-k-frequent-elements/,no,2025-03-11,"Initial solution"
